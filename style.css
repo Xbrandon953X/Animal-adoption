@@ -13,32 +13,42 @@ a:active{
 }
 main{
   text-align: center;
-  width: 50%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   line-height: 30px;
-  
+}
+  h1:first-letter, a:first-letter{
+  font-size: 2em;
+
+}
     nav a{
   text-decoration: none;
-  margin: 175px;
+  margin: 100px;
+      color: darkgreen;
+      font-size: 25px;
 
 body{
     background-image: url("https://miro.medium.com/max/1200/1*9IIoxOcIbhMFFKMCI2ncuQ.jpeg");
 background-repeat: no-repeat ;
 background-size:cover ;
    }
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+      li{
+  list-style-position: inside; color: black;
+}
    }
 
 a,h1 h2{
-  color: white;
-  font-size: 3em;
+  color: darkblue;
+  font-size: 2em;
 }
 
 
 
 *{
-  color: white
+  color: purple
 }
 
 
@@ -48,4 +58,4 @@ a,h1 h2{
 }
 a[target="_blank"]{
   color: blue;
-background-color: white;}
+background-color: red;}
